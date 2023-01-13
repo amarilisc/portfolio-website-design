@@ -3,6 +3,7 @@ import './home.css';
 import { Button } from '../../components';
 import laptopguy from '../../assets/laptopguy.png';
 import arrowboing from '../../assets/arrowboing.svg';
+import musicalnote from '../../assets/musicalnote.svg';
 import { FiDownload } from 'react-icons/fi';
 import { BsArrowDown } from "react-icons/bs";
 
@@ -21,7 +22,7 @@ const Home = () => {
               
             
               <div className='port__btn'>
-                <Button color="noicon" text="Hire me" href="#contact" />
+                <Button color="noicon" text="Hire me" href="contact" />
                 <Button color="icon" text="Download CV" icon={<FiDownload />} />
               </div>
             </div>
@@ -34,7 +35,9 @@ const Home = () => {
             <BsArrowDown color="#fff" size={35} />
           </a>
         </div>
+        <img className='musicalnote' src={musicalnote} alt='Musical note' />
       </div>
+      
     </section>
   )
 }

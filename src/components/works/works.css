@@ -1,0 +1,14 @@
+.port__works {
+    background-color: var(--color-bg-btn);
+    padding: 3em;
+    border-radius: 1.5em;
+    width: 23em;
+    height: 16.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.port__works img {
+    max-width: 15em;
+}
