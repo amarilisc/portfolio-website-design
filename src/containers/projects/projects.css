@@ -1,0 +1,73 @@
+.port__projects {
+    background: url(../../assets/doodlebg.svg);
+    margin-top: 10em;
+    padding: 16rem 8rem;
+}
+
+.port__projects-title h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1em;
+    color: var(--color-pr);
+}
+
+.port__projects-buttons ul,
+.port__projects-works ul {
+    list-style-type: none;
+    display: flex;
+    margin: 2em 0;
+}
+
+.port__projects-buttons ul {
+    gap: 1.5em;
+}
+
+.port__projects-works ul {
+    gap: 3em;
+}
+
+/* media */
+
+@media (max-width: 1300px) {
+        .port__projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4em;
+        padding: 10rem 8rem;
+    }
+    .port__projects-works ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 670px) {
+    .port__projects {
+        padding: 10rem 4rem;
+    }
+    .port__projects-title h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 560px) {
+    .port__projects-buttons ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .port__projects-buttons ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

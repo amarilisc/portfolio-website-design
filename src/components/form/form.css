@@ -1,0 +1,47 @@
+.port__form {
+    width: 100%;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--color-pr);
+}
+
+.port__form input, textarea {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 1em;
+    background-color: var(--color-bg-btn);
+    border-radius: 0.5em;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 0.5em 1em;
+    width: 100%;
+}
+
+.input-form {
+    gap: 0.5em;
+}
+
+.port__input-name-email {
+    display: flex;
+    gap: 2em;
+}
+
+.port__input-message {
+    margin: 1em 0em;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 900px) {
+    .port__form {
+        font-size: 0.9em;
+    }
+    .port__form input, textarea {
+        font-size: 0.9em;
+    }
+}

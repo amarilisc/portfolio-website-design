@@ -15,12 +15,21 @@
     font-size: 18px;
     color: var(--color-pr);
     text-shadow: var(--text-shadow);
+    transition: background-color 1s;
 }
 
 .icon {
     background-color: var(--color-bg-btn);
 }
 
+.icon:hover {
+    background-color: var(--color-sc);
+}
+
 .noicon {
     background-color: var(--color-sc);
+}
+
+.noicon:hover {
+    background-color: var(--color-sc-dark);
 }

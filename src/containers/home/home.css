@@ -1,11 +1,12 @@
 .port__home {
     margin-top: 4em;
+    padding: 0em 4em;
 }
 
 .port__home_section {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 2em;
 }
 
@@ -50,10 +51,16 @@
     border-radius: 0.2em;
     position:absolute;
     left: calc(50% - 50px);
+    margin-top: 2em;
 }
 
 .port__illustration {
-    width: 30%;
+    width: 40%;
+}
+
+.musicalnote {
+    margin-top: 5em;
+    width: 5%;
 }
 
 
@@ -82,6 +89,9 @@
     .port__home {
         margin-top: 2em;
     }
+    .port__home_section {
+        justify-content: space-around;
+    }
     .port__btn{
         margin-left: 0;
         flex-direction: column;
@@ -96,9 +106,7 @@
         display: none;
     }
     .downarrow {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
+        display: none;
     }
 }
 
